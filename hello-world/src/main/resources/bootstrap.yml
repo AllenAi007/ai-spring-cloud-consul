@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: ai-spring-cloud-hello-world
+  # consul default configuration
+  cloud:
+    consul:
+      host: localhost
+      port: 8500
+      # consul cloud config
+      config:
+        enabled: true
+        prefix: config
+        # default is application
+#        defaultContext: application
+        profileSeparator: ','
+        # watch
+        watch:
+          enabled: true
+          # in millisecond
+          delay: 1000
+        format: yaml
+        fail-fast: true
