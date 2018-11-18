@@ -13,7 +13,7 @@ Pre-Installation
 2. hello-world service, run two services with two ports. 
 - mvn spring-boot:run -f hello-world/pom.xml -Dspring-boot.run.arguments=--server.port=9001
 - mvn spring-boot:run -f hello-world/pom.xml -Dspring-boot.run.arguments=--server.port=9002
-3. api-gateway service, one only
+3. api-gateway service, TBD
 
 ## config key value in consul using yml
 By using yml, data is the default key, below are the loaded data with start application with dev profile
