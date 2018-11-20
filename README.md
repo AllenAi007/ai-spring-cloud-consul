@@ -21,3 +21,7 @@ By using yml, data is the default key, below are the loaded data with start appl
 - config/application,dev/data
 - config/ai-spring-cloud-hello-world/data
 - config/ai-spring-cloud-hello-world,dev/data
+
+## compare with eureka
+So far looks better
+1. api gateway zuul can not detect new instance during run time, need to restart zuul if there is a new instance added.

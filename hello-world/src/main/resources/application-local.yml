@@ -1,0 +1,3 @@
+# for local env without getting data from consul
+ai:
+  welcome: Welcome To Consul

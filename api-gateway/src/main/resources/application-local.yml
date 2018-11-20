@@ -1,0 +1,11 @@
+# without reading configuration from consul
+zuul:
+  ignoredServices: '*'
+  routes:
+    hello:
+      path: /api/hello/**
+      serviceId: ai-spring-cloud-hello-world
+ribbon:
+  eager-load:
+    enabled: true
+    clients: ai-spring-cloud-hello-world
